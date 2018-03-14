@@ -143,6 +143,7 @@ public class Enoloxianeodatismongooracle {
         }
     }
 
+    //añadir los datos a mongo
     public static void añadir_datos_xerado_mongo(ODB odb) throws SQLException {
 
         String consulta = "select nomeu,acidezmin,acidezmax from uva where tipouva=?";
